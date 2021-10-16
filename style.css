@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.bigdiscordtext{
+  color: whitesmoke;
+  font-size: 390%;
+  text-align: center;
+  font-weight: 200;
+  justify-content: center;
+  align-self: flex-start;
+  
+}
+
+.discordtext{
+  color: whitesmoke;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.discordlogo{
+  justify-content: center;
+
+}
+.backgroundwood{
+  background-image: url("images/Table texture.jpg");
+  font-family: "Hammersmith", sans-serif;
+}
+
+.backgroundlibrary{
+  background-image: url("images/library-wood.jpg");
+}
+
+.firstfooter{
+  background-image: url("images/library-wood.jpg");
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discord{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+li, a, button {
+  font-weight: 400;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10%;
+  box-sizing: border-box;
+  margin: 0;
+  background-image: url("images/Wood-2.jpg")
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  transition: all 0.2s ease 0s;
+}
+
+.logo:hover {
+  opacity: 0.7;
+  transition: all 0.2s ease 0s;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.smallbutton {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color:#0088a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.smallbutton:hover {
+    opacity: 0.7;
+}
+
+.box {
+  width:90%;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  background-image: url("images/Wood texture.jpg");
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200%;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.container {
+  width: 125px;
+  height: 200px;
+  float: left;
+}
+
+
+.mainbutton {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  background-image: url("images/Wood-2.jpg");
+  box-sizing: border-box;
+ border-radius: 30px;
+  text-align: center;
+  font-size: 200%;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 2px;
+  justify-content: center;
+}
