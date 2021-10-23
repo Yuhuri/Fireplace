@@ -21,9 +21,13 @@
   justify-content: center;
 
 }
+
+body {
+  font-family: "Hammersmith", sans-serif;
+}
+
 .backgroundwood{
   background-image: url("images/Table texture.jpg");
-  font-family: "Hammersmith", sans-serif;
 }
 
 .backgroundlibrary{
@@ -136,15 +140,10 @@ nav {
 }
 
 .livraria {
-  display: flex;
-  flex-wrap: 50px 50px; 
   padding: 5rem;
+  float:left;
 }
 
-
-.mainbutton {
-
-}
 
 .center {
  display: flex; 
