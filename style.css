@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 li, a, button {
@@ -50,6 +50,9 @@ li, a, button {
   color: whitesmoke;
   text-decoration: none;
 }
+
+
+
 
 header {
   display: flex;
@@ -70,6 +73,11 @@ header {
 .logo:hover {
   opacity: 0.7;
   transition: all 0.2s ease 0s;
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav__links {
@@ -120,25 +128,43 @@ header {
   letter-spacing: 2px;
 }
 
-.container {
-  width: 125px;
-  height: 200px;
+.books { 
+  width: 200px; 
+  height: auto;
   float: left;
+  margin: 1rem 1.5rem; 
+}
+
+.livraria {
+  display: flex;
+  flex-wrap: 50px 50px; 
+  padding: 5rem;
 }
 
 
 .mainbutton {
-  width: auto;
-  height: auto;
+
+}
+
+.center {
+ display: flex; 
+ justify-content: center;
+ flex-direction: column;
+}
+
+body > main > button {
+  width: 20rem;
   padding: 20px;
   margin: 20px;
   background-image: url("images/Wood-2.jpg");
   box-sizing: border-box;
- border-radius: 30px;
+  border-radius: 30px;
   text-align: center;
-  font-size: 200%;
+  font-size: 2rem;
   font-weight: 300;
   color: white;
   letter-spacing: 2px;
+  display:flex;
   justify-content: center;
+  display: block;
 }
