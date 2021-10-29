@@ -6,7 +6,7 @@
   text-align: center;
   font-weight: 200;
   justify-content: center;
-  align-self: flex-start;
+  align-self: center;
   
 }
 
@@ -18,8 +18,7 @@
 }
 
 .discordlogo{
-  justify-content: center;
-
+  margin-bottom: 30px;
 }
 
 body {
@@ -160,27 +159,31 @@ nav {
   padding: 5rem;
   float:left;
 }
-
-
-.center {
- display: flex; 
- justify-content: center;
- flex-direction: column;
+.textoliv {
+  color: white;
+  font-weight: 400;
 }
 
-body > main > button {
+.center {
+  text-align: center;
+}
+
+body > main > div >button {
   width: 20rem;
   padding: 20px;
   margin: 20px;
-  background-image: url("images/Wood-2.jpg");
+  background-image: url("images/fire-flames.gif");
   box-sizing: border-box;
   border-radius: 30px;
-  text-align: center;
   font-size: 2rem;
   font-weight: 300;
   color: white;
   letter-spacing: 2px;
-  display:flex;
+  text-align: center;
+}
+
+.buttomcenter {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: block;
 }
