@@ -25,6 +25,10 @@ body {
   font-family: "Benne", sans-serif;
 }
 
+.hammersmith{
+  font-family: "Hammersmith", sans-serif; 
+}
+
 .backgroundwood{
   background-image: url("images/Table texture.jpg");
 }
@@ -74,17 +78,40 @@ li, a, button {
 }
 
 .page{
-  width: 750px;
+  width: 750px; 
   height: auto;
-  padding: 20px;
-  margin: 20px;
+  padding: 40px;
   background-image: url("images/Page.jpg");
   text-align: center;  
   margin-left: auto;
   margin-right: auto;
+} 
+
+.escolha{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  height: 200px;
+}
+
+.escolha button{
+  width: 200px;
+  font-size: xx-large;
+  font-style: oblique;
 }
 
 
+
+
+
+.escolhabotao1{
+  height: 100%;
+  background-color: turquoise;
+}
+
+.escolhabotao2{
+  background-color:darkred;
+}
 
 header {
   display: flex;
@@ -199,4 +226,8 @@ body > main > div >button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.text{
+  font-size: x-large;
 }
