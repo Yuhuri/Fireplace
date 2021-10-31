@@ -110,6 +110,7 @@ li, a, button {
 }
 
 .escolhabotao2{
+  height: 100%;
   background-color:darkred;
 }
 
@@ -230,4 +231,5 @@ body > main > div >button {
 
 .text{
   font-size: x-large;
+  text-align: justify;
 }
