@@ -21,6 +21,7 @@
   margin-bottom: 30px;
 }
 
+
 body {
   font-family: "Benne", sans-serif;
 }
@@ -131,8 +132,7 @@ header {
 }
 
 .logo:hover {
-  opacity: 0.7;
-  transition: all 0.2s ease 0s;
+  transform: scale(1.1);
 }
 
 nav {
@@ -172,6 +172,14 @@ nav {
     opacity: 0.7;
 }
 
+a{
+  transition: all 0.2s ease 0;
+}
+
+a:hover{
+  transform: scale(1.05);
+}
+
 .box {
   width:90%;
   height: auto;
@@ -209,7 +217,7 @@ nav {
   text-align: center;
 }
 
-body > main > div >button {
+body > main > a > button {
   width: 20rem;
   padding: 20px;
   margin: 20px;
