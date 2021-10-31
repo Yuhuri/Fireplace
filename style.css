@@ -125,14 +125,13 @@ header {
   background-image: url("images/Wood-2.jpg")
 }
 
-.logo {
+img, button {
   cursor: pointer;
-  margin-right: auto;
   transition: all 0.2s ease 0s;
 }
 
-.logo:hover {
-  transform: scale(1.1);
+img:hover, button:hover {
+  transform: scale(1.02);
 }
 
 nav {
@@ -172,20 +171,10 @@ nav {
     opacity: 0.7;
 }
 
-a{
-  transition: all 0.2s ease 0;
-}
 
-a:hover{
-  transform: scale(1.05);
-}
 
-button{
-  transition: all 0.2s ease 0;
-}
-
-button:hover{
-  transform: scale(1.05);
+.logo{
+  margin-right: auto;
 }
 
 .box {
